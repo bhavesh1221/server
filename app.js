@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware 
 app.use(cors());
-app.use(express.json());
+app.use(express.json()); 
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGO_DB_URL || 'mongodb://localhost:27017/counterapp', {
