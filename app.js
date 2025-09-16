@@ -47,7 +47,7 @@ const Counter = mongoose.model('Counter', counterSchema);
 
 // Health check
 app.get('/', (req, res) => {
-    res.json({ message: 'Counter App Backend Running!' });
+    res.json({ message: 'Counter App Backend Running!1' });
 }); 
 
 // Save counter value
